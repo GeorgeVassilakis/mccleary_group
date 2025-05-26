@@ -3,6 +3,7 @@
 
 - name: "Jacqueline McCleary"
   role: "Principal Investigator"
+  affiliation: "Assistant Professor, Department of Physics"
   image: "/assets/images/team/jmccleary.jpg"
   research: "Topics: weak gravitational lensing, galaxy clusters, cosmology"
 
@@ -29,5 +30,6 @@
 # Add more team members following this format:
 # - name: "Full Name"
 #   role: "PhD Student / Postdoc / Research Scientist / etc"
+#   affiliation: "Department or Institution" (optional)
 #   image: "/assets/images/team/filename.jpg"
 #   research: "Topics: research area 1, research area 2"

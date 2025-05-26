@@ -14,9 +14,14 @@ permalink: /team/
         <div class="team-grid">
             {% for member in site.data.team %}
             <div class="team-card">
-                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
+                <div class="team-image-wrapper">
+                    <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
+                </div>
                 <h3 class="team-name">{{ member.name }}</h3>
                 <p class="team-role">{{ member.role }}</p>
+                {% if member.affiliation %}
+                <p class="team-affiliation">{{ member.affiliation }}</p>
+                {% endif %}
                 <p class="team-research">{{ member.research }}</p>
             </div>
             {% endfor %}
