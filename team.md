@@ -1,33 +1,54 @@
-# Team Members Data
-# Add new members by copying the format below
+---
+layout: page
+title: Team
+permalink: /team/
+---
 
-- name: "Jacqueline McCleary"
-  role: "Principal Investigator"
-  image: "/assets/images/team/jmccleary.jpg"
-  research: "Topics: weak gravitational lensing, galaxy clusters, cosmology"
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h1>Our Team</h1>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="team-grid">
+            {% for member in site.data.team %}
+            <div class="team-card">
+                <img src="{{ member.image }}" alt="{{ member.name }}" class="team-image">
+                <h3 class="team-name">{{ member.name }}</h3>
+                <p class="team-role">{{ member.role }}</p>
+                <p class="team-research">{{ member.research }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="join-section">
+            <h2>Join Our Group</h2>
+            <p>
+                We are always looking for motivated graduate students and postdocs interested in observational cosmology, gravitational lensing, and galaxy cluster physics. If you're interested in joining our group, please contact Professor McCleary at <a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a>.
+            </p>
+        </div>
+    </div>
+</section>
 
-- name: "Graduate Student 1"
-  role: "PhD Student"
-  image: "/assets/images/team/placeholder1.jpg"
-  research: "Topics: cluster mass measurements, lensing analysis"
+<style>
+.join-section {
+    max-width: 800px;
+    margin: 5rem auto 0;
+    text-align: center;
+    padding: 3rem;
+    background: #1a1f2e;
+    border-radius: 12px;
+    border: 1px solid #2d3748;
+}
 
-- name: "Postdoc 1"
-  role: "Postdoctoral Fellow"
-  image: "/assets/images/team/placeholder2.jpg"
-  research: "Topics: circumgalactic dust, distance measurements"
+.join-section h2 {
+    color: #6366f1;
+    margin-bottom: 1.5rem;
+}
 
-- name: "Graduate Student 2"
-  role: "PhD Student"
-  image: "/assets/images/team/placeholder3.jpg"
-  research: "Topics: COSMOS-Web, PSF modeling"
-
-- name: "Graduate Student 3"
-  role: "MS Student"
-  image: "/assets/images/team/placeholder4.jpg"
-  research: "Topics: SuperBIT data analysis, balloon-borne astronomy"
-
-# Add more team members following this format:
-# - name: "Full Name"
-#   role: "PhD Student / Postdoc / Research Scientist / etc"
-#   image: "/assets/images/team/filename.jpg"
-#   research: "Topics: research area 1, research area 2"
+.join-section p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+</style>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teaching
+permalink: /teaching/
 ---
 
 <!-- NOTE: This page is optional. To remove the teaching section:
