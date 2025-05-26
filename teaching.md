@@ -23,7 +23,7 @@ permalink: /teaching/
         <div class="courses-list">
             
             <div class="course-card">
-                <img src="/assets/images/teaching/advanced-astro.jpg" alt="Advanced Astrophysics" class="course-image">
+                <img src="{{ '/assets/images/teaching/advanced-astro.jpg' | relative_url }}" alt="Advanced Astrophysics" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 5117: Advanced Astrophysics Topics</h2>
                     <p class="course-term">Graduate Course • Spring Semester</p>
@@ -40,7 +40,7 @@ permalink: /teaching/
             </div>
             
             <div class="course-card">
-                <img src="/assets/images/teaching/multimessenger.jpg" alt="Multimessenger Astrophysics" class="course-image">
+                <img src="{{ '/assets/images/teaching/multimessenger.jpg' | relative_url }}" alt="Multimessenger Astrophysics" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 4111: Multimessenger Astrophysics</h2>
                     <p class="course-term">Upper-level Undergraduate • Fall Semester</p>
@@ -57,7 +57,7 @@ permalink: /teaching/
             </div>
             
             <div class="course-card">
-                <img src="/assets/images/teaching/intro-astronomy.jpg" alt="Introduction to Astronomy" class="course-image">
+                <img src="{{ '/assets/images/teaching/intro-astronomy.jpg' | relative_url }}" alt="Introduction to Astronomy" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 1111: Introduction to Astronomy</h2>
                     <p class="course-term">Introductory Course • Fall & Spring Semesters</p>
