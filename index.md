@@ -74,25 +74,23 @@ layout: home
             <h2>Our Team</h2>
             <div class="section-line"></div>
         </div>
-            <div class="team-grid">
-                {% for member in site.data.team limit:6 %}
-                <div class="team-card">
-                    <div class="team-image-wrapper">
-                        <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
-                    </div>
-                    <h3 class="team-name">{{ member.name }}</h3>
-                    <p class="team-role">{{ member.role }}</p>
-                    {% if member.affiliation %}
-                    <p class="team-affiliation">{{ member.affiliation }}</p>
-                    {% endif %}
-                    <p class="team-research">{{ member.research }}</p>
+        <div class="team-grid">
+            {% for member in site.data.team limit:6 %}
+            <div class="team-card">
+                <div class="team-image-wrapper">
+                    <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
                 </div>
-                {% endfor %}
+                <h3 class="team-name">{{ member.name }}</h3>
+                <p class="team-role">{{ member.role }}</p>
+                {% if member.affiliation %}
+                <p class="team-affiliation">{{ member.affiliation }}</p>
+                {% endif %}
+                <p class="team-research">{{ member.research }}</p>
             </div>
             {% endfor %}
         </div>
         <div style="text-align: center; margin-top: 3rem;">
-            <a href="{{ '/team' | relative_url }}" class="btn btn-primary">View All Team Members</a>
+            <a href="{{ '/team/' | relative_url }}" class="btn btn-primary">View All Team Members</a>
         </div>
     </div>
 </section>
