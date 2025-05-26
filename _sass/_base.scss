@@ -1,0 +1,95 @@
+// Base reset and fundamental styles
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: $bg-primary;
+    color: $text-primary;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+p {
+    color: $text-secondary;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: $accent;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+    &:hover {
+        color: $accent-hover;
+    }
+}
+
+// Main content spacing
+main {
+    margin-top: 80px;
+    min-height: calc(100vh - 300px);
+}
+
+// Utility classes
+.lead-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: $text-secondary;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    
+    &.btn-primary {
+        background: $accent;
+        color: white;
+        
+        &:hover {
+            background: $accent-hover;
+            transform: translateY(-2px);
+        }
+    }
+    
+    &.btn-secondary {
+        background: transparent;
+        border: 2px solid $accent;
+        color: $accent;
+        
+        &:hover {
+            background: $accent;
+            color: white;
+        }
+    }
+}

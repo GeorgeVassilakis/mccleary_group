@@ -1,0 +1,146 @@
+// Responsive breakpoints and media queries
+
+@media (max-width: $tablet) {
+    // Typography adjustments
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.25rem; }
+    
+    // Hero adjustments
+    .hero {
+        .hero-content {
+            h1 {
+                font-size: 2.5rem !important;
+            }
+            
+            .tagline {
+                font-size: 1.25rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                
+                .btn {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    
+    // Navigation adjustments
+    .navbar {
+        .container {
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.1rem;
+        }
+        
+        .nav-links {
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+    }
+    
+    // Footer adjustments
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    // Grid adjustments
+    .research-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    // Course card adjustments
+    .course-card {
+        flex-direction: column;
+        
+        .course-image {
+            width: 100%;
+        }
+    }
+    
+    // Section spacing
+    .section {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: $mobile) {
+    // Further mobile adjustments
+    .container {
+        padding: 0 15px;
+    }
+    
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    
+    .navbar {
+        .nav-links {
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            
+            a {
+                padding: 0.25rem 0.5rem;
+            }
+        }
+    }
+    
+    .hero {
+        min-height: 70vh;
+        
+        .hero-content {
+            h1 {
+                font-size: 2rem !important;
+            }
+            
+            .hero-description {
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+// Large screens
+@media (min-width: $wide) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .research-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+// Print styles
+@media print {
+    .navbar,
+    .footer,
+    .cta-buttons {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}

@@ -1,8 +1,8 @@
 # Site settings
 title: Cosmology & Astrophysics Group
 description: Northeastern University | Department of Physics
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/mccleary_group" # the subpath of your site
+url: "https://georgevassilakis.github.io" # the base hostname & protocol for your site
 
 # Professor information
 pi:
