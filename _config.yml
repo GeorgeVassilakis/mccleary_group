@@ -1,0 +1,44 @@
+# Site settings
+title: Cosmology & Astrophysics Group
+description: Northeastern University | Department of Physics
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Professor information
+pi:
+  name: Jacqueline McCleary
+  title: Assistant Professor
+  email: j.mccleary@northeastern.edu
+  scholar: https://scholar.google.com/citations?user=riqZRtoAAAAJ&hl=en
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  research_areas:
+    output: false
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

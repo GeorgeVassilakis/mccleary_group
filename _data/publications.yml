@@ -1,0 +1,32 @@
+# Publications Data
+# Add new publications at the top to keep chronological order
+# Link to Google Scholar: https://scholar.google.com/citations?user=riqZRtoAAAAJ&hl=en
+
+- title: "Circumgalactic Dust Halos and Distance Measurements"
+  authors: "J. McCleary, et al."
+  journal: "In Preparation"
+  year: 2025
+  link: "https://arxiv.org/abs/2503.04098"
+  tags: ["dust", "cosmology"]
+
+- title: "COSMOS-Web: Weak Lensing Analysis of JWST Data"
+  authors: "Author 1, J. McCleary, Author 3, et al."
+  journal: "Astrophysical Journal"
+  year: 2024
+  link: ""
+  tags: ["lensing", "JWST", "cosmology"]
+
+- title: "SuperBIT: Stratospheric Observations of Galaxy Clusters"
+  authors: "Collaboration Author, J. McCleary, et al."
+  journal: "Monthly Notices of the Royal Astronomical Society"
+  year: 2024
+  link: ""
+  tags: ["clusters", "SuperBIT", "lensing"]
+
+# Example format for adding new publications:
+# - title: "Full Paper Title"
+#   authors: "First Author, Second Author, J. McCleary, et al."
+#   journal: "Journal Name"
+#   year: YYYY
+#   link: "https://arxiv.org/abs/..." # or journal link
+#   tags: ["tag1", "tag2", "tag3"] # relevant keywords
