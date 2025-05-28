@@ -22,7 +22,7 @@ permalink: /research/
         <h2>Galaxy Cluster Cosmology from the Stratosphere</h2>
         <div class="research-detail">
             <div class="research-hero">
-                <img src="{{ '/assets/images/research/stratosphere-detail.jpg' | relative_url }}" alt="SuperBIT telescope" class="research-hero-image">
+                <img src="{{ '/assets/images/research/bit-nature.png' | relative_url }}" alt="SuperBIT telescope" class="research-hero-image">
             </div>
             
             <p>
@@ -53,7 +53,7 @@ permalink: /research/
         <h2>Gravitational Lensing and Cosmology with COSMOS-Web</h2>
         <div class="research-detail">
             <div class="research-hero">
-                <img src="{{ '/assets/images/research/cosmos-web-detail.jpg' | relative_url }}" alt="COSMOS-Web field" class="research-hero-image">
+                <img src="{{ '/assets/images/research/cweb-footprint.jpg' | relative_url }}" alt="COSMOS-Web field" class="research-hero-image">
             </div>
             
             <p>
@@ -84,7 +84,7 @@ permalink: /research/
         <h2>Circumgalactic Dust Halos</h2>
         <div class="research-detail">
             <div class="research-hero">
-                <img src="{{ '/assets/images/research/dust-detail.jpg' | relative_url }}" alt="Circumgalactic dust visualization" class="research-hero-image">
+                <img src="{{ '/assets/images/research/dust.jpeg' | relative_url }}" alt="Circumgalactic dust visualization" class="research-hero-image">
             </div>
             
             <p>
