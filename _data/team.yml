@@ -22,10 +22,10 @@
   image: "/assets/images/team/placeholder3.jpg"
   research: "Topics: galaxy clusters, data science, nebular chemistry"
 
-- name: "Edward Berman"
+- name: "Eddie Berman"
   role: "Undergraduate Student"
   image: "/assets/images/team/placeholder4.jpg"
-  research: "Topics: COSMOS-Web, equivariance, computational imaging"
+  research: "Topics: COSMOS-Web, computational imaging, adaptive optics"
 
 - name: "August Sununu"
   role: "Undergraduate Co-op"
