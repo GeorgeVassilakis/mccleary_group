@@ -22,22 +22,22 @@
   image: "/assets/images/team/placeholder3.jpg"
   research: "Topics: galaxy clusters, data science, nebular chemistry"
 
-  - name: "Edward Berman"
+- name: "Edward Berman"
   role: "Undergraduate Student"
   image: "/assets/images/team/placeholder4.jpg"
   research: "Topics: COSMOS-Web, equivariance, computational imaging"
 
-  - name: "August Sununu"
+- name: "August Sununu"
   role: "Undergraduate Co-op"
   image: "/assets/images/team/placeholder5.jpg"
   research: "Topics:"
 
-  - name: "Maya Amit"
+- name: "Maya Amit"
   role: "Undergraduate Student"
   image: "/assets/images/team/placeholder6.jpg"
   research: "Topics: SuperBIT, lensing analysis"
 
-  - name: "Georgios Vassilakis"
+- name: "Georgios Vassilakis"
   role: "Undergraduate Student"
   image: "/assets/images/team/gvassilakis.png"
   research: "Topics: SuperBIT, mass mapping, lensing analysis"
