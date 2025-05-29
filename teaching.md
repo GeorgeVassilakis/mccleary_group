@@ -28,13 +28,13 @@ permalink: /teaching/
                     <h2>PHYS 5117: Advanced Astrophysics Topics</h2>
                     <p class="course-term">Graduate Course</p>
                     <p class="course-description">
-                        An advanced graduate course exploring cutting-edge topics in modern astrophysics, including gravitational lensing, cosmological parameter estimation, and observational techniques. Students engage with current research literature and develop independent research projects related to observational cosmology.
+                        This course focuses on stellar structure and properties, the interstellar medium and the formation of stars and planets, and galaxies. Topics include astronomical distance and brightness measures, stellar spectra analysis, magnetic activity on the Sun including flares and coronal mass ejections, complete star formation and evolution from molecular clouds to compact objects, planetary systems, galaxy formation and evolution, dark matter implications from galaxy clusters, and the large-scale structure of the universe.
                     </p>
                     <div class="course-topics">
-                        <span class="topic-tag">Gravitational Lensing</span>
+                        <span class="topic-tag">Stellar Evolution</span>
+                        <span class="topic-tag">Galaxy Formation</span>
                         <span class="topic-tag">Dark Matter</span>
-                        <span class="topic-tag">Cosmology</span>
-                        <span class="topic-tag">Data Analysis</span>
+                        <span class="topic-tag">Large-Scale Structure</span>
                     </div>
                 </div>
             </div>
@@ -45,13 +45,13 @@ permalink: /teaching/
                     <h2>PHYS 4111: Multimessenger Astrophysics</h2>
                     <p class="course-term">Advanced Undergraduate Level</p>
                     <p class="course-description">
-                        An exploration of modern astrophysics through the lens of multimessenger observations. Students learn how electromagnetic radiation, gravitational waves, neutrinos, and cosmic rays provide complementary views of astronomical phenomena. Includes hands-on data analysis projects using real astronomical data.
+                        The detection of gravitational waves and high-energy cosmic neutrinos has revolutionized astronomy. This course explores how astrophysical processes produce electromagnetic radiation, cosmic rays, neutrinos, and gravitational waves - each carrying distinct information about their sources. Students investigate signals from stars, active galactic nuclei, supernovae, and black holes, while learning about the detectors and techniques used to observe these different messengers. The course provides a solid introduction to the newest discoveries in astrophysics, covering the production, transmission, and detection of these various astrophysical signals.
                     </p>
                     <div class="course-topics">
                         <span class="topic-tag">Gravitational Waves</span>
-                        <span class="topic-tag">High-Energy Astrophysics</span>
-                        <span class="topic-tag">Data Analysis</span>
-                        <span class="topic-tag">Observational Techniques</span>
+                        <span class="topic-tag">Neutrino Astronomy</span>
+                        <span class="topic-tag">Cosmic Rays</span>
+                        <span class="topic-tag">Multi-wavelength Observations</span>
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@ permalink: /teaching/
                     <h2>PHYS 1111: Introduction to Astronomy</h2>
                     <p class="course-term">Introductory Level</p>
                     <p class="course-description">
-                        A comprehensive introduction to astronomy for non-science majors. Topics include the solar system, stellar evolution, galaxies, and cosmology. Emphasis on understanding our place in the universe and the methods astronomers use to study distant objects. Includes observational projects and planetarium visits.
+                        Astrophysics is "the science of everything that isn't nailed down." This course surveys the Universe from our solar system to its infancy, with stops to explore galaxies and extreme objects like black holes and neutron stars. Topics include an introduction to the cosmos, Earth's place in the universe, our solar system (planets, moons, asteroids, and comets), stellar physics and classification, and stellar evolution. Students learn about astronomical tools including the nature of light and radiation, telescopes, and spectroscopy. In-class demonstrations and activities illuminate concepts from lectures.
                     </p>
                     <div class="course-topics">
                         <span class="topic-tag">Solar System</span>
-                        <span class="topic-tag">Stars & Galaxies</span>
-                        <span class="topic-tag">Cosmology</span>
-                        <span class="topic-tag">Observational Astronomy</span>
+                        <span class="topic-tag">Stellar Physics</span>
+                        <span class="topic-tag">Galaxies</span>
+                        <span class="topic-tag">Observational Techniques</span>
                     </div>
                 </div>
             </div>
@@ -96,10 +96,12 @@ permalink: /teaching/
 
 .course-image {
     width: 150px;
-    height: 227px;
+    height: auto;
+    aspect-ratio: 13/17;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
+    background: #141927;
 }
 
 .course-content {
@@ -140,7 +142,8 @@ permalink: /teaching/
     .course-image {
         width: 100%;
         height: auto;
-        max-width: 300px;
+        aspect-ratio: 13/17;
+        max-width: 200px;
         margin: 0 auto;
     }
 }
