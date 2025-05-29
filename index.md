@@ -44,21 +44,21 @@ layout: home
         </div>
         <div class="research-grid">
             <div class="research-card">
-                <img src="/assets/images/research/superbit-logo.jpeg" alt="Stratospheric observations" class="research-image">
+                <img src="{{ '/assets/images/research/superbit-logo.jpeg' | relative_url }}" alt="Stratospheric observations" class="research-image">
                 <h3>Galaxy Cluster Cosmology from the Stratosphere</h3>
                 <p>Leading weak gravitational lensing analysis of merging clusters observed with SuperBIT, a stratospheric NUV-to-NIR telescope. We're also developing GigaBIT, its successor mission.</p>
                 <a href="{{ '/research#stratosphere' | relative_url }}">Learn more →</a>
             </div>
             
             <div class="research-card">
-                <img src="/assets/images/research/cweb-logo.png" alt="COSMOS-Web" class="research-image">
+                <img src="{{ '/assets/images/research/cweb-logo.png' | relative_url }}" alt="COSMOS-Web" class="research-image">
                 <h3>Gravitational Lensing with COSMOS-Web</h3>
                 <p>Using JWST NIRCam and MIRI observations to characterize PSFs for gravitational lensing analysis and conduct cosmological parameter estimation using 3x2-point correlation functions.</p>
                 <a href="{{ '/research#cosmos-web' | relative_url }}">Learn more →</a>
             </div>
             
             <div class="research-card">
-                <img src="/assets/images/research/cgm-preview.jpg" alt="Circumgalactic dust" class="research-image">
+                <img src="{{ '/assets/images/research/cgm-preview.jpg' | relative_url }}" alt="Circumgalactic dust" class="research-image">
                 <h3>Circumgalactic Dust Halos</h3>
                 <p>Exploring dust in the extended circumgalactic and intergalactic medium, studying its effects on distance estimates as a function of galaxy type.</p>
                 <a href="{{ '/research#dust' | relative_url }}">Learn more →</a>
@@ -75,7 +75,7 @@ layout: home
             <div class="section-line"></div>
         </div>
         <div class="team-grid">
-            {% for member in site.data.team limit:6 %}
+            {% for member in site.data.team limit:5 %}
             <div class="team-card">
                 <div class="team-image-wrapper">
                     <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
