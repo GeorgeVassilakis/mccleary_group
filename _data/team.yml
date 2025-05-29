@@ -7,29 +7,43 @@
   image: "/assets/images/team/jmccleary.jpg"
   research: "Topics: weak gravitational lensing, galaxy clusters, cosmology"
 
-- name: "Graduate Student 1"
-  role: "PhD Student"
+- name: "Sayan Saha"
+  role: "Postdoctoral Fellow"
   image: "/assets/images/team/placeholder1.jpg"
-  research: "Topics: cluster mass measurements, lensing analysis"
+  research: "Topics: SuperBIT, lensing analysis, CMB lensing"
 
-- name: "Postdoc 1"
+- name: "Bryanne McDonough"
   role: "Postdoctoral Fellow"
   image: "/assets/images/team/placeholder2.jpg"
-  research: "Topics: circumgalactic dust, distance measurements"
+  research: "Topics: computational astrophysics, galaxy evolution"
 
-- name: "Graduate Student 2"
+- name: "Eric Habjan"
   role: "PhD Student"
   image: "/assets/images/team/placeholder3.jpg"
-  research: "Topics: COSMOS-Web, PSF modeling"
+  research: "Topics: galaxy clusters, data science, nebular chemistry"
 
-- name: "Graduate Student 3"
-  role: "MS Student"
+  - name: "Edward Berman"
+  role: "Undergraduate Student"
   image: "/assets/images/team/placeholder4.jpg"
-  research: "Topics: SuperBIT data analysis, balloon-borne astronomy"
+  research: "Topics: COSMOS-Web, equivariance, computational imaging"
+
+  - name: "August Sununu"
+  role: "Undergraduate Co-op"
+  image: "/assets/images/team/placeholder5.jpg"
+  research: "Topics:"
+
+  - name: "Maya Amit"
+  role: "Undergraduate Student"
+  image: "/assets/images/team/placeholder6.jpg"
+  research: "Topics: SuperBIT, lensing analysis"
+
+  - name: "Georgios Vassilakis"
+  role: "Undergraduate Student"
+  image: "/assets/images/team/gvassilakis.png"
+  research: "Topics: SuperBIT, mass mapping, lensing analysis"
 
 # Add more team members following this format:
 # - name: "Full Name"
 #   role: "PhD Student / Postdoc / Research Scientist / etc"
-#   affiliation: "Department or Institution" (optional)
 #   image: "/assets/images/team/filename.jpg"
 #   research: "Topics: research area 1, research area 2"
