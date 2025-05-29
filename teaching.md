@@ -26,7 +26,7 @@ permalink: /teaching/
                 <img src="{{ '/assets/images/teaching/phys5117-textbook.jpg' | relative_url }}" alt="Advanced Astrophysics" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 5117: Advanced Astrophysics Topics</h2>
-                    <p class="course-term">Graduate Course • Spring Semester</p>
+                    <p class="course-term">Graduate Course</p>
                     <p class="course-description">
                         An advanced graduate course exploring cutting-edge topics in modern astrophysics, including gravitational lensing, cosmological parameter estimation, and observational techniques. Students engage with current research literature and develop independent research projects related to observational cosmology.
                     </p>
@@ -43,7 +43,7 @@ permalink: /teaching/
                 <img src="{{ '/assets/images/teaching/phys4111-textbook.jpg' | relative_url }}" alt="Multimessenger Astrophysics" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 4111: Multimessenger Astrophysics</h2>
-                    <p class="course-term">Upper-level Undergraduate • Fall Semester</p>
+                    <p class="course-term">Advanced Undergraduate Level</p>
                     <p class="course-description">
                         An exploration of modern astrophysics through the lens of multimessenger observations. Students learn how electromagnetic radiation, gravitational waves, neutrinos, and cosmic rays provide complementary views of astronomical phenomena. Includes hands-on data analysis projects using real astronomical data.
                     </p>
@@ -60,7 +60,7 @@ permalink: /teaching/
                 <img src="{{ '/assets/images/teaching/phys1111-textbook.jpg' | relative_url }}" alt="Introduction to Astronomy" class="course-image">
                 <div class="course-content">
                     <h2>PHYS 1111: Introduction to Astronomy</h2>
-                    <p class="course-term">Introductory Course • Fall & Spring Semesters</p>
+                    <p class="course-term">Introductory Level</p>
                     <p class="course-description">
                         A comprehensive introduction to astronomy for non-science majors. Topics include the solar system, stellar evolution, galaxies, and cosmology. Emphasis on understanding our place in the universe and the methods astronomers use to study distant objects. Includes observational projects and planetarium visits.
                     </p>
@@ -95,8 +95,8 @@ permalink: /teaching/
 }
 
 .course-image {
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 227px;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
@@ -139,6 +139,9 @@ permalink: /teaching/
     
     .course-image {
         width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
 </style>
