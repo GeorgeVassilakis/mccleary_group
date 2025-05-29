@@ -23,7 +23,7 @@ permalink: /research/
             <h2>SuperBIT: Galaxy Cluster Cosmology from the Stratosphere</h2>
         </div>
         <div class="research-detail">
-            <img src="/assets/images/research/bit-nature.png" alt="SuperBIT telescope" class="research-hero-image">
+            <img src="{{ '/assets/images/research/bit-nature.png' | relative_url }}" alt="SuperBIT telescope" class="research-hero-image">
             
             <p>
                 We are leading the weak gravitational lensing analysis of merging clusters observed with the Superpressure Balloon-borne Imaging Telescope (SuperBIT), a stratospheric NUV-to-NIR observing platform. Operating at 40km altitude above 99.5% of the atmosphere, SuperBIT provides near-space quality imaging at a fraction of the cost of satellite missions.
@@ -54,7 +54,7 @@ permalink: /research/
             <h2>COSMOS-Web: Gravitational Lensing and Cosmology with JWST</h2>
         </div>
         <div class="research-detail">
-            <img src="/assets/images/research/cweb-footprint.jpg" alt="COSMOS-Web field" class="research-hero-image">
+            <img src="{{ '/assets/images/research/cweb-footprint.jpg' | relative_url }}" alt="COSMOS-Web field" class="research-hero-image">
             
             <p>
                 As Co-I in COSMOS-Web, the largest JWST NIRCam and MIRI survey of the COSMOS field, our group specializes in PSF characterization for gravitational lensing analysis. The unprecedented resolution and sensitivity of JWST allows us to probe weak lensing signals with higher precision than ever before.
@@ -85,7 +85,7 @@ permalink: /research/
             <h2>Circumgalactic Dust Halos</h2>
         </div>
         <div class="research-detail">
-            <img src="/assets/images/research/dust.jpeg" alt="Circumgalactic dust visualization" class="research-hero-image">
+            <img src="{{ '/assets/images/research/dust.jpeg' | relative_url }}" alt="Circumgalactic dust visualization" class="research-hero-image">
             
             <p>
                 We have recently begun exploring the presence and properties of dust in the extended circumgalactic medium (CGM) and intergalactic medium (IGM). This dust, extending to megaparsec scales around galaxies, challenges our understanding of dust formation and survival in low-density environments.
