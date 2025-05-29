@@ -2,26 +2,209 @@
 # Add new publications at the top to keep chronological order
 # Link to Google Scholar: https://scholar.google.com/citations?user=riqZRtoAAAAJ&hl=en
 
-- title: "Circumgalactic Dust Halos and Distance Measurements"
-  authors: "J. McCleary, et al."
-  journal: "In Preparation"
+# 2025 Publications
+- title: "On Soft Clustering For Correlation Estimators: Model Uncertainty, Differentiability, and Surrogates"
+  authors: "E. Berman, S. Pandya, J. McCleary, M. Shuntov, C. Casey, N. Drakos, et al."
+  journal: "arXiv preprint arXiv:2504.06174"
+  year: 2025
+  link: "https://arxiv.org/abs/2504.06174"
+  tags: ["methods", "clustering", "cosmology"]
+
+- title: "The COSMOS-Web Lens Survey (COWLS) I: Discovery of> 100 high redshift strong lenses in contiguous JWST imaging"
+  authors: "J. Nightingale, G. Mahler, J. McCleary, Q. He, N.B. Hogg, A. Amvrosiadis, et al."
+  journal: "arXiv preprint arXiv:2503.08777"
+  year: 2025
+  link: "https://arxiv.org/abs/2503.08777"
+  tags: ["lensing", "JWST", "COSMOS-Web"]
+
+- title: "The COSMOS-Web Lens Survey (COWLS) II: depth, resolution, and NIR coverage from JWST reveal 17 spectacular lenses"
+  authors: "G. Mahler, J.W. Nightingale, N.B. Hogg, G. Gozaliasl, J. McCleary, Q. He, et al."
+  journal: "arXiv preprint arXiv:2503.08782"
+  year: 2025
+  link: "https://arxiv.org/abs/2503.08782"
+  tags: ["lensing", "JWST", "COSMOS-Web"]
+
+- title: "The COSMOS-Web Lens Survey (COWLS) III: forecasts versus data"
+  authors: "N.B. Hogg, J.W. Nightingale, Q. He, J. McCleary, G. Mahler, A. Amvrosiadis, et al."
+  journal: "arXiv preprint arXiv:2503.08785"
+  year: 2025
+  link: "https://arxiv.org/abs/2503.08785"
+  tags: ["lensing", "JWST", "COSMOS-Web"]
+
+- title: "A Detection of Circumgalactic Dust at Megaparsec Scales with Maximum Likelihood Estimation"
+  authors: "J.E. McCleary, E.M. Huff, J.W. Bartlett, B.S. Hensley"
+  journal: "arXiv preprint arXiv:2503.04098"
   year: 2025
   link: "https://arxiv.org/abs/2503.04098"
-  tags: ["dust", "cosmology"]
+  tags: ["dust", "cosmology", "methods"]
 
-- title: "COSMOS-Web: Weak Lensing Analysis of JWST Data"
-  authors: "Author 1, J. McCleary, Author 3, et al."
-  journal: "Astrophysical Journal"
-  year: 2024
-  link: ""
-  tags: ["lensing", "JWST", "cosmology"]
+- title: "COSMOS-Web: Stellar mass assembly in relation to dark matter halos across 0.2< z< 12 of cosmic history"
+  authors: "M. Shuntov, O. Ilbert, S. Toft, et al. (Collaboration Author)"
+  journal: "Astronomy & Astrophysics 695, A20"
+  year: 2025
+  link: "https://www.aanda.org/articles/aa/abs/2025/03/aa52570-24/aa52570-24.html"
+  tags: ["JWST", "COSMOS-Web", "dark matter", "cosmology"]
 
-- title: "SuperBIT: Stratospheric Observations of Galaxy Clusters"
-  authors: "Collaboration Author, J. McCleary, et al."
-  journal: "Monthly Notices of the Royal Astronomical Society"
+- title: "Tracing the galaxy-halo connection with galaxy clustering in COSMOS-Web from z= 0.1 to z~ 12"
+  authors: "L. Paquereau, C. Laigle, H.J. McCracken, et al. (Collaboration Author)"
+  journal: "arXiv preprint arXiv:2501.11674"
+  year: 2025
+  link: "https://arxiv.org/abs/2501.11674"
+  tags: ["JWST", "COSMOS-Web", "clustering", "cosmology"]
+
+- title: "On Differentiable Correlation Functions"
+  authors: "E. Berman, J. McCleary"
+  journal: "American Astronomical Society Meeting Abstracts 245, 424.01"
+  year: 2025
+  link: "https://ui.adsabs.harvard.edu/abs/2025AAS...24542401B/abstract"
+  tags: ["methods", "cosmology"]
+
+# 2024 Publications
+- title: "LoVoCCS. II. Weak Lensing Mass Distributions, Red-sequence Galaxy Distributions, and Their Alignment with the Brightest Cluster Galaxy in 58 Nearby X-Ray-luminous Galaxy Clusters"
+  authors: "S. Fu, I. Dell'Antonio, et al. (Collaboration Author)"
+  journal: "The Astrophysical Journal 974 (1), 69"
   year: 2024
-  link: ""
-  tags: ["clusters", "SuperBIT", "lensing"]
+  link: "https://iopscience.iop.org/article/10.3847/1538-4357/ad67c6/meta"
+  tags: ["lensing", "clusters", "LoVoCCS"]
+
+- title: "Efficient Point-spread Function Modeling with ShOpt.jl: A Point-spread Function Benchmarking Study with JWST NIRCam Imaging"
+  authors: "E.M. Berman, J.E. McCleary, A.M. Koekemoer, M. Franco, N.E. Drakos, D. Liu, et al."
+  journal: "The Astronomical Journal 168 (4), 174"
+  year: 2024
+  link: "https://iopscience.iop.org/article/10.3847/1538-3881/ad6a0f"
+  tags: ["JWST", "methods", "PSF", "software"]
+
+- title: "ShOpt.jl: A Julia Package for Empirical Point Spread Function Characterization of JWST NIRCam Data"
+  authors: "E. Berman, J. McCleary"
+  journal: "Journal of Open Source Software, 9(100), 6144"
+  year: 2024
+  link: "https://doi.org/10.21105/joss.06144"
+  tags: ["JWST", "methods", "PSF", "software"]
+
+- title: "Superbit superpressure flight instrument overview and performance: Near-diffraction-limited astronomical imaging from the stratosphere"
+  authors: "A.S. Gill, et al. (Collaboration Author)"
+  journal: "The Astronomical Journal 168 (2), 85"
+  year: 2024
+  link: "https://iopscience.iop.org/article/10.3847/1538-3881/ad5840"
+  tags: ["SuperBIT", "instrumentation", "balloon", "imaging"]
+
+- title: "Hydrodynamical simulations of merging galaxy clusters: giant dark matter particle colliders, powered by gravity"
+  authors: "E.L. Sirks, D. Harvey, R. Massey, et al."
+  journal: "Monthly Notices of the Royal Astronomical Society 530 (3), 3160-3170"
+  year: 2024
+  link: "https://academic.oup.com/mnras/article/530/3/3160/7649378"
+  tags: ["clusters", "dark matter", "simulations"]
+
+# 2023 Publications
+- title: "Data downloaded via parachute from a nasa super-pressure balloon"
+  authors: "E.L. Sirks, R. Massey, A.S. Gill, et al. (Collaboration Author)"
+  journal: "Aerospace 10 (11), 960"
+  year: 2023
+  link: "https://www.mdpi.com/2226-4310/10/11/960"
+  tags: ["SuperBIT", "instrumentation", "balloon"]
+
+- title: "Lensing in the blue. II. Estimating the sensitivity of stratospheric balloons to weak gravitational lensing"
+  authors: "J.E. McCleary, S.W. Everett, M.M. Shaaban, A.S. Gill, G.N. Vassilakis, et al."
+  journal: "The Astronomical Journal 166 (3), 134"
+  year: 2023
+  link: "https://iopscience.iop.org/article/10.3847/1538-3881/ace7ca"
+  tags: ["lensing", "SuperBIT", "balloon", "methods"]
+
+- title: "COSMOS-Web: an overview of the JWST Cosmic Origins Survey"
+  authors: "C.M. Casey, J.S. Kartaltepe, N.E. Drakos, et al. (Collaboration Author)"
+  journal: "The Astrophysical Journal 954 (1), 31"
+  year: 2023
+  link: "https://iopscience.iop.org/article/10.3847/1538-4357/acc2bc/"
+  tags: ["JWST", "COSMOS-Web", "cosmology", "survey"]
+
+- title: "Empirical characterization of the NIRCam Point spread function and its impact on weak lensing"
+  authors: "J. McCleary"
+  journal: "EAS2023, European Astronomical Society Annual Meeting, 2188"
+  year: 2023
+  link: "https://ui.adsabs.harvard.edu/abs/2023eas..conf.2188M/abstract"
+  tags: ["JWST", "PSF", "lensing", "methods"]
+
+# 2022 Publications
+- title: "Weak lensing in the blue: a counter-intuitive strategy for stratospheric observations"
+  authors: "M.M. Shaaban, A.S. Gill, J. McCleary, et al."
+  journal: "The Astronomical Journal 164 (6), 245"
+  year: 2022
+  link: "https://iopscience.iop.org/article/10.3847/1538-3881/ac9b1c"
+  tags: ["lensing", "SuperBIT", "balloon", "methods"]
+
+- title: "LoVoCCS. I. Survey introduction, data processing pipeline, and early science results"
+  authors: "S. Fu, I. Dell'Antonio, et al. (Collaboration Author)"
+  journal: "The Astrophysical Journal 933 (1), 84"
+  year: 2022
+  link: "https://iopscience.iop.org/article/10.3847/1538-4357/ac68e8/"
+  tags: ["clusters", "lensing", "LoVoCCS", "survey"]
+
+# 2021 and earlier Publications
+
+- title: "Spectroscopic Tomography: A First Weak-lensing Detection Using Spectroscopic Redshifts Only"
+  authors: "I. Dell'Antonio, J. Sohn, M.J. Geller, J. McCleary, A. Von der Linden"
+  journal: "The Astrophysical Journal 903 (1), 64"
+  year: 2020
+  link: "https://iopscience.iop.org/article/10.3847/1538-4357/abb5ab/"
+  tags: ["lensing", "methods", "spectroscopy"]
+
+- title: "Dark Matter Distribution of Four Low-z Clusters of Galaxies"
+  authors: "J. McCleary, I. dell'Antonio, A. von der Linden"
+  journal: "The Astrophysical Journal 893 (1), 8"
+  year: 2020
+  link: "https://iopscience.iop.org/article/10.3847/1538-4357/ab7c58/"
+  tags: ["dark matter", "clusters", "lensing"]
+
+- title: "Dark matter substructure in very low redshift galaxy clusters"
+  authors: "J.E. McCleary"
+  journal: "Brown University Digital Repository"
+  year: 2017
+  link: "https://repository.library.brown.edu/studio/item/bdr:792597/"
+  tags: ["dark matter", "clusters", "thesis"]
+
+- title: "Mass Substructure in Abell 3128"
+  authors: "J. McCleary, I. Dell'Antonio, P. Huwe"
+  journal: "The Astrophysical Journal 805 (1), 40"
+  year: 2015
+  link: "https://iopscience.iop.org/article/10.1088/0004-637X/805/1/40/"
+  tags: ["clusters", "dark matter", "lensing"]
+
+# 2014 Publications
+- title: "The effect of models of the interstellar media on the central mass distribution of galaxies"
+  authors: "C.R. Christensen, F. Governato, T. Quinn, A.M. Brooks, S. Shen, J. McCleary, et al."
+  journal: "Monthly Notices of the Royal Astronomical Society 440 (3), 2843-2859"
+  year: 2014
+  link: "https://academic.oup.com/mnras/article/440/3/2843/1747094"
+  tags: ["galaxies", "simulations", "ISM"]
+
+- title: "Simulating disc galaxy bulges that are consistent with observed scaling relations"
+  authors: "C.R. Christensen, A.M. Brooks, D.B. Fisher, F. Governato, J. McCleary, et al."
+  journal: "Monthly Notices of the Royal Astronomical Society: Letters 440 (1), L51-L55"
+  year: 2014
+  link: "https://academic.oup.com/mnrasl/article/440/1/L51/1394096"
+  tags: ["galaxies", "simulations", "bulges"]
+
+- title: "Mapping Dark Matter and the PSF: Weak Lensing Studies of Galaxy Clusters with pODI"
+  authors: "I.P. Dell'Antonio, J.E. McCleary"
+  journal: "American Astronomical Society Meeting Abstracts 222, 105.07"
+  year: 2013
+  link: "https://ui.adsabs.harvard.edu/abs/2013AAS...22210507D/abstract"
+  tags: ["lensing", "clusters", "dark matter"]
+
+# 2011 Publications
+- title: "A survey of high-contrast stellar flares observed by Chandra"
+  authors: "J.E. McCleary, S.J. Wolk"
+  journal: "The Astronomical Journal 141 (6), 201"
+  year: 2011
+  link: "https://iopscience.iop.org/article/10.1088/0004-6256/141/6/201/"
+  tags: ["stars", "flares", "X-ray"]
+
+- title: "Interpreting the evolution of the size–luminosity relation for disk galaxies from redshift 1 to the present"
+  authors: "A.M. Brooks, A.R. Solomon, F. Governato, J. McCleary, L.A. MacArthur, et al."
+  journal: "The Astrophysical Journal 728 (1), 51"
+  year: 2011
+  link: "https://iopscience.iop.org/article/10.1088/0004-637X/728/1/51/"
+  tags: ["galaxies", "evolution", "cosmology"]
 
 # Example format for adding new publications:
 # - title: "Full Paper Title"

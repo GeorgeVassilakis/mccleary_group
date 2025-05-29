@@ -124,13 +124,17 @@
 // Publications
 .publications-list {
     .publication-item {
-        @extend .card;
+        background: $bg-card;
+        border-radius: 12px;
+        padding: 2rem;
         margin-bottom: 1.5rem;
+        border: 1px solid $border-color;
+        transition: all $transition-speed $transition-easing;
         
-        .publication-year {
-            color: $accent;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
+        &:hover {
+            transform: translateY(-2px);
+            border-color: rgba($accent, 0.3);
+            box-shadow: 0 4px 12px rgba($accent, 0.1);
         }
         
         .publication-title {
