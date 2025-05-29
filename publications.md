@@ -61,13 +61,6 @@ permalink: /publications/
                 {% endif %}
             {% endfor %}
         </div>
-        
-        <div class="publications-footer">
-            <h3>Adding Publications</h3>
-            <p>
-                To add new publications, edit the <code>_data/publications.yml</code> file. Publications will be automatically grouped by year.
-            </p>
-        </div>
     </div>
 </section>
 
@@ -142,26 +135,5 @@ permalink: /publications/
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.875rem;
-}
-
-.publications-footer {
-    max-width: 700px;
-    margin: 4rem auto 0;
-    padding: 2rem;
-    background: rgba(99, 102, 241, 0.1);
-    border-radius: 12px;
-    border: 1px solid rgba(99, 102, 241, 0.3);
-}
-
-.publications-footer h3 {
-    color: #6366f1;
-    margin-bottom: 1rem;
-}
-
-.publications-footer code {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-family: monospace;
 }
 </style>
