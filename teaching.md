@@ -96,7 +96,7 @@ permalink: /teaching/
 
 .course-image {
     width: 150px;
-    height: auto;
+    height: 196px;
     aspect-ratio: 13/17;
     object-fit: cover;
     border-radius: 8px;
