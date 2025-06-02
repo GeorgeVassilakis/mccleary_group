@@ -9,12 +9,12 @@
 
 - name: "Sayan Saha"
   role: "Postdoctoral Fellow"
-  image: "/assets/images/team/placeholder1.jpg"
+  image: "/assets/images/team/ssaha.jpg"
   research: "Topics: SuperBIT, lensing analysis, CMB lensing"
 
 - name: "Bryanne McDonough"
   role: "Postdoctoral Fellow"
-  image: "/assets/images/team/placeholder2.jpg"
+  image: "/assets/images/team/bmcdonough.jpg"
   research: "Topics: computational astrophysics, galaxy evolution"
 
 - name: "Eric Habjan"
@@ -34,7 +34,7 @@
 
 - name: "Maya Amit"
   role: "Undergraduate Student"
-  image: "/assets/images/team/placeholder6.jpg"
+  image: "/assets/images/team/mamit.jpg"
   research: "Topics: SuperBIT, lensing analysis"
 
 - name: "Georgios Vassilakis"
