@@ -96,12 +96,12 @@ permalink: /teaching/
 
 .course-image {
     width: 150px;
-    height: 196px;
-    aspect-ratio: 13/17;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
     flex-shrink: 0;
     background: #141927;
+    display: block;
 }
 
 .course-content {
@@ -141,8 +141,6 @@ permalink: /teaching/
     
     .course-image {
         width: 100%;
-        height: auto;
-        aspect-ratio: 13/17;
         max-width: 200px;
         margin: 0 auto;
     }
