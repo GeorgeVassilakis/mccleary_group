@@ -23,13 +23,18 @@ layout: home
     <div class="container">
         <div class="about-pi">
             <h2>About the PI</h2>
-            <div class="pi-content">
-                <p>
-                    Professor <strong>Jacqueline McCleary</strong> is an observational cosmologist who uses galaxy clusters as a laboratory in which to explore the nature of dark matter and its interaction with galaxies. Her group develops tools to measure galaxy clusters' weak gravitational lensing: the small but coherent distortion of light from distant galaxies by massive foreground objects. Professor McCleary uses data from observatories on mountaintops, in the stratosphere, and in space. She is a collaborator in the Local Volume Complete Cluster Survey (LoVoCCS), the Superpressure Balloon-borne Imaging Telescope (SuperBIT), and COSMOS-Web (a JWST collaboration).
-                </p>
-                <p>
-                    Jacqueline first joined the Department of Physics as a Northeastern ADVANCE Future Faculty Fellow before "graduating" to an assistant professorship in 2022. She has received an MS in astronomy from New Mexico State University, an MS and PhD in physics from Brown University, and was a post-doctoral fellow at NASA's Jet Propulsion Laboratory.
-                </p>
+            <div class="pi-content-wrapper">
+                <div class="pi-image">
+                    <img src="{{ '/assets/images/jmccleary_wideshot.jpg' | relative_url }}" alt="Professor Jacqueline McCleary">
+                </div>
+                <div class="pi-content">
+                    <p>
+                        Professor <strong>Jacqueline McCleary</strong> is an observational cosmologist who uses galaxy clusters as a laboratory in which to explore the nature of dark matter and its interaction with galaxies. Her group develops tools to measure galaxy clusters' weak gravitational lensing: the small but coherent distortion of light from distant galaxies by massive foreground objects. Professor McCleary uses data from observatories on mountaintops, in the stratosphere, and in space. She is a collaborator in the Local Volume Complete Cluster Survey (LoVoCCS), the Superpressure Balloon-borne Imaging Telescope (SuperBIT), and COSMOS-Web (a JWST collaboration).
+                    </p>
+                    <p>
+                        Jacqueline first joined the Department of Physics as a Northeastern ADVANCE Future Faculty Fellow before "graduating" to an assistant professorship in 2022. She has received an MS in astronomy from New Mexico State University, an MS and PhD in physics from Brown University, and was a post-doctoral fellow at NASA's Jet Propulsion Laboratory.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
