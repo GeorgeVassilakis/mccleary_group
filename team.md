@@ -11,8 +11,11 @@ permalink: /team/
             <div class="section-line"></div>
         </div>
         
+        <!-- Current Members -->
+        <h2 class="team-section-title">Current Members</h2>
         <div class="team-grid">
-            {% for member in site.data.team %}
+            {% assign current_members = site.data.team | where: "status", "current" %}
+            {% for member in current_members %}
             <div class="team-card">
                 <div class="team-image-wrapper">
                     <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
@@ -27,6 +30,22 @@ permalink: /team/
             {% endfor %}
         </div>
         
+        <!-- Past Members -->
+        <h2 class="team-section-title">Past Members</h2>
+        <div class="team-grid past-members">
+            {% assign past_members = site.data.team | where: "status", "past" %}
+            {% for member in past_members %}
+            <div class="team-card past-member-card">
+                <div class="team-image-wrapper">
+                    <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
+                </div>
+                <h3 class="team-name">{{ member.name }}</h3>
+                <p class="team-role">Former {{ member.role }}</p>
+                <p class="team-current">Currently: {{ member.current_position }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        
         <div class="join-section">
             <h2>Join Our Group</h2>
             <p>
@@ -37,6 +56,42 @@ permalink: /team/
 </section>
 
 <style>
+.team-section-title {
+    font-size: 1.75rem;
+    color: #6366f1;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.team-section-title:first-of-type {
+    margin-top: 0;
+}
+
+/* Past member cards styling */
+.past-member-card {
+    background: #1a1f2e;
+    border: 1px solid rgba(45, 55, 72, 0.5);
+    opacity: 0.95;
+}
+
+.past-member-card .team-role {
+    color: #94a3b8;
+    font-style: italic;
+}
+
+.team-current {
+    color: #6366f1;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+}
+
+/* Remove research text from past members */
+.past-member-card .team-research {
+    display: none;
+}
+
 .join-section {
     max-width: 800px;
     margin: 5rem auto 0;

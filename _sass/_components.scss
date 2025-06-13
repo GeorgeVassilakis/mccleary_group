@@ -107,8 +107,8 @@
     }
 }
 
-// Special styling for PI card
-.team-grid .team-card:first-child {
+// Special styling for PI card (only in current members section)
+.team-grid:not(.past-members) .team-card:first-child {
     grid-column: 1 / -1;
     max-width: 400px;
     margin: 0 auto;

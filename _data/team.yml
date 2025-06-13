@@ -2,48 +2,78 @@
 # Add new members by copying the format below
 
 - name: "Jacqueline McCleary"
+  status: "current"
   role: "Principal Investigator"
   affiliation: "Assistant Professor, Department of Physics"
   image: "/assets/images/team/jmccleary.jpg"
   research: "Topics: weak gravitational lensing, galaxy clusters, cosmology"
 
 - name: "Sayan Saha"
+  status: "current"
   role: "Postdoctoral Fellow"
   image: "/assets/images/team/ssaha.jpg"
   research: "Topics: SuperBIT, lensing analysis, CMB lensing"
 
 - name: "Bryanne McDonough"
+  status: "current"
   role: "Postdoctoral Fellow"
   image: "/assets/images/team/bmcdonough.jpg"
   research: "Topics: computational astrophysics, galaxy evolution"
 
 - name: "Eric Habjan"
+  status: "current"
   role: "PhD Student"
   image: "/assets/images/team/ehabjan.jpg"
   research: "Topics: galaxy clusters, data science, ionized gas"
 
 - name: "Eddie Berman"
+  status: "current"
   role: "Undergraduate Student"
   image: "/assets/images/team/eberman.jpg"
-  research: "Topics: COSMOS-Web, computational imaging, adaptive optics"
+  research: "Topics: COSMOS-Web, computational imaging, adaptive optics"\
+
+- name: "Tim Wessling"
+  status: "current"
+  role: "Undergraduate Student"
+  image: "/assets/images/team/twessling.png"
+  research: "Topics: Circumgalactic Dust Halos, blazars, gamma-ray astrophysics"
+
+- name: "Nicole Chidester"
+  status: "current"
+  role: "Undergraduate Student"
+  image: "/assets/images/team/nchidester.png"
+  research: "Topics: Circumgalactic Dust Halos"
 
 - name: "August Sununu"
+  status: "current"
   role: "Undergraduate Co-op"
   image: "/assets/images/team/placeholder5.jpg"
-  research: "Topics:"
+  research: "Topics: COSMOS-Web"
 
+# Past Members
 - name: "Maya Amit"
+  status: "past"
   role: "Undergraduate Student"
+  current_position: "MS Student at New York University (NYU)"
   image: "/assets/images/team/mamit.jpeg"
-  research: "Topics: SuperBIT, lensing analysis"
 
 - name: "Georgios Vassilakis"
+  status: "past"
   role: "Undergraduate Student"
+  current_position: "PhD Student at Cambridge University"
   image: "/assets/images/team/gvassilakis.png"
-  research: "Topics: SuperBIT, mass mapping, lensing analysis"
 
 # Add more team members following this format:
+# For current members:
 # - name: "Full Name"
+#   status: "current"
 #   role: "PhD Student / Postdoc / Research Scientist / etc"
 #   image: "/assets/images/team/filename.jpg"
 #   research: "Topics: research area 1, research area 2"
+#
+# For past members:
+# - name: "Full Name"
+#   status: "past"
+#   role: "Former Role in Group"
+#   current_position: "Current Position at Institution"
+#   image: "/assets/images/team/filename.jpg"

@@ -75,7 +75,8 @@ layout: home
             <div class="section-line"></div>
         </div>
         <div class="team-grid">
-            {% for member in site.data.team limit:5 %}
+            {% assign current_members = site.data.team | where: "status", "current" %}
+            {% for member in current_members limit:5 %}
             <div class="team-card">
                 <div class="team-image-wrapper">
                     <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
