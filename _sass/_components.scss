@@ -222,9 +222,9 @@
     align-items: start;
     
     .course-image {
-        width: 200px;
-        height: 150px;
-        object-fit: cover;
+        width: 150px;
+        height: auto;
+        object-fit: contain;
         border-radius: 8px;
         flex-shrink: 0;
     }
